@@ -7,6 +7,7 @@ Release:	1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.gz
+# Source0-md5:	b82467ec28cec6ca3258c06cc0ee3e88
 URL:		http://mhash.sourceforge.net/
 BuildRequires:	mhash-devel
 BuildRequires:	python-devel >= 2.2.1
