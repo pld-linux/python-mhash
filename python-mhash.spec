@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 Summary:	Python interface for mhash library
 Summary(pl):	Interfejs Pythona do biblioteki mhash
 Name:		python-mhash
