@@ -11,7 +11,6 @@ Patch0:		%{name}-typo.patch
 URL:		http://mhash.sourceforge.net/
 BuildRequires:	mhash-devel >= 0.9.2
 BuildRequires:	python-devel >= 2.2.1
-BuildRequires:	rpm-pythonprov
 Requires:	mhash >= 0.9.2
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
