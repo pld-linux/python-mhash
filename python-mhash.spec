@@ -1,16 +1,18 @@
 Summary:	Python interface for mhash library
 Summary(pl):	Interfejs Pythona do biblioteki mhash
 Name:		python-mhash
-Version:	1.2
+Version:	1.3
 Release:	1
 License:	LGPL
 Group:		Libraries/Python
-Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.gz
-# Source0-md5:	b82467ec28cec6ca3258c06cc0ee3e88
+Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.bz2
+# Source0-md5:	5ac08825a3ad18fa209b34fb6edba7b3
+Patch0:		%{name}-typo.patch
 URL:		http://mhash.sourceforge.net/
-BuildRequires:	mhash-devel
+BuildRequires:	mhash-devel >= 0.9.2
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	rpm-pythonprov
+Requires:	mhash >= 0.9.2
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,6 +28,7 @@ takich jak MD5, SHA1 i inne.
 
 %prep
 %setup -q
+%patch0 -p1
 
 %build
 python setup.py build
