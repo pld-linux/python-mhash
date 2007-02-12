@@ -1,5 +1,5 @@
 Summary:	Python interface for mhash library
-Summary(pl):	Interfejs Pythona do biblioteki mhash
+Summary(pl.UTF-8):   Interfejs Pythona do biblioteki mhash
 Name:		python-mhash
 Version:	1.4
 Release:	1
@@ -19,9 +19,9 @@ The Python mhash module provides an interface for the mhash library.
 The mhash library provides an easy way to access strong hashes such as
 MD5, SHA1 and other algorithms.
 
-%description -l pl
-Modu³ Pythona mhash dostarcza interfejs do biblioteki mhash.
-Biblioteka mhash daje ³atwy dostêp do silnych algorytmów mieszaj±cych,
+%description -l pl.UTF-8
+ModuÅ‚ Pythona mhash dostarcza interfejs do biblioteki mhash.
+Biblioteka mhash daje Å‚atwy dostÄ™p do silnych algorytmÃ³w mieszajÄ…cych,
 takich jak MD5, SHA1 i inne.
 
 %prep
