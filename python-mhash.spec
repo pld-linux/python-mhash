@@ -1,5 +1,5 @@
 Summary:	Python interface for mhash library
-Summary(pl.UTF-8):   Interfejs Pythona do biblioteki mhash
+Summary(pl.UTF-8):	Interfejs Pythona do biblioteki mhash
 Name:		python-mhash
 Version:	1.4
 Release:	1
