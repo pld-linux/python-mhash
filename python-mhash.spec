@@ -2,7 +2,7 @@ Summary:	Python interface for mhash library
 Summary(pl.UTF-8):	Interfejs Pythona do biblioteki mhash
 Name:		python-mhash
 Version:	1.4
-Release:	2
+Release:	3
 License:	LGPL
 Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.bz2
