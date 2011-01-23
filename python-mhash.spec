@@ -10,6 +10,8 @@ Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.bz2
 URL:		http://mhash.sourceforge.net/
 BuildRequires:	mhash-devel >= 0.9.2
 BuildRequires:	python-devel >= 2.2.1
+BuildRequires:	python-modules
+BuildRequires:	rpm-pythonprov
 Requires:	mhash >= 0.9.2
 %pyrequires_eq	python-modules
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
