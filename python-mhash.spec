@@ -8,6 +8,7 @@ Group:		Libraries/Python
 Source0:	http://dl.sourceforge.net/mhash/%{name}-%{version}.tar.bz2
 # Source0-md5:	fb2a9ebae95c995eb8dea58eca1b46ed
 URL:		http://mhash.sourceforge.net/
+BuildRequires:	rpmbuild(macros) >= 1.710
 BuildRequires:	mhash-devel >= 0.9.2
 BuildRequires:	python-devel >= 2.2.1
 BuildRequires:	python-modules
